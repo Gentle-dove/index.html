@@ -1,0 +1,185 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+    background-color: #F5F8FA;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+    gap: 1rem; /* Optional: Adds space between flex items */
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.nav a {
+    margin: 0 0.5rem;
+    text-decoration: none;
+    color: #333;
+}
+
+.nav .account {
+    font-weight: bold;
+    border: 1px solid #ddd;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+}
+
+.checkout-container {
+    display: flex;
+    margin: 2rem auto;
+    max-width: 1200px;
+    gap: 0;
+}
+
+.checkout-form, .sidebar {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 0 5px 5px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.checkout-form {
+    flex: 2;
+    /* Removed position: absolute; */
+}
+
+.sidebar {
+    flex: 1;
+    background-color: #0073e6;
+    color: #fff;
+    position: relative;
+    
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.section {
+    margin-bottom: 2rem;
+}
+
+.section h3 {
+    display: flex;
+    align-items: center;
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+}
+
+.section h3 span {
+    display: inline-block;
+    background-color: #0073e6;
+    color: #fff;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 24px;
+    margin-right: 0.5rem;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.inline {
+    display: flex;
+    gap: 1rem;
+}
+
+.btn-primary {
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    background-color: #218838;
+}
+
+.help-text {
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 0.875rem;
+}
+
+.help-text a {
+    color: #0073e6;
+    text-decoration: none;
+}
+
+.sidebar .pricing {
+    margin-bottom: 2rem;
+}
+
+.sidebar .pricing h3 {
+    font-size: 1.5rem;
+}
+
+.sidebar .pricing .price {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.sidebar .pricing ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar .pricing ul li {
+    margin-bottom: 0.5rem;
+}
+
+.sidebar .testimonial {
+    font-size: 0.875rem;
+    border-top: 1px solid #fff;
+    padding-top: 1rem;
+    margin-top: 1rem;
+}
+
+.footer {
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.875rem;
+    color: #999;
+}
+
+.footer a {
+    color: #0073e6;
+    text-decoration: none;
+}
+
+.fullname {
+    display: inline-flex;
+    gap: 4rem;
+}
